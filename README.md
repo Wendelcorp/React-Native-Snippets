@@ -1,5 +1,7 @@
 # React-Native Snippets
 
+Made for Atom
+
 To use: 
 1. Copy and paste the code from the snippets.cson file
 2. Open Atom, click Atom in the toolbar, then click Snippets... from the dropdown
