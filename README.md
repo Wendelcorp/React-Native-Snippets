@@ -1,7 +1,8 @@
 # React-Native Snippets
 
-## nccom + enter returns a Class Component scaffold
-
+## Class Component scaffold
+### nccom + enter
+```javascript
 import React from 'react';
 import {
   View,
@@ -17,9 +18,10 @@ import {
         );
       }
     }
-
-## nfcom + enter returns a Functional Component scaffold
-
+```
+## Functional Component scaffold
+### nfcom + enter
+```javascript
 import React from 'react';
 import {
   View,
@@ -35,3 +37,4 @@ import {
     };
 
 export default $3;
+```
