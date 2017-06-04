@@ -2,12 +2,12 @@
 
 Made for Atom
 
-To use: 
+To use:
 1. Copy and paste the code from the snippets.cson file
 2. Open Atom, click Atom in the toolbar, then click Snippets... from the dropdown
 3. Paste code in the file that opened and save the file
 
-## Class Component scaffold
+## Class Component
 ### nccom + enter will return:
 ```javascript
 import React from 'react';
@@ -26,7 +26,7 @@ import {
       }
     }
 ```
-## Functional Component scaffold
+## Functional Component
 ### nfcom + enter will return:
 ```javascript
 import React from 'react';
@@ -44,4 +44,22 @@ import {
     };
 
 export default $3;
+```
+## Constructor
+### nfcom + enter will return:
+```javascript
+constructor(props){
+  super(props);
+
+  this.state = {$1};
+}
+```
+## StyleSheet
+### nfcom + enter will return:
+```javascript
+const styles = StyleSheet.create({
+  container: {
+    $1: $2,
+  },
+});
 ```
