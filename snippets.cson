@@ -1,59 +1,57 @@
-'NativeClassComponent':
-  'prefix': 'nccom'
-  'body': """
-  import React from 'react';
-  import {
-    View,
-    Text
-    } from 'react-native';
-
-      export default class $1 extends Component {
-        render(){
-          return(
-            <View>
-              <Text>$2</Text>
-            </View>
-          );
-        }
-      }
-    """
-
-'NativeFunctionalComponent':
-  'prefix': 'nfcom'
-  'body': """
+'.source.js':
+  'NativeClassComponent':
+    'prefix': 'nccom'
+    'body': """
     import React from 'react';
     import {
       View,
       Text
       } from 'react-native';
 
-      const $1 = () => {
-          return(
-            <View>
-              <Text>$2</Text>
-            </View>
-          );
-        };
+        export default class $1 extends Component {
+          render(){
+            return(
+              <View>
+                <Text>$2</Text>
+              </View>
+            );
+          }
+        }
+      """
+  'NativeFunctionalComponent':
+    'prefix': 'nfcom'
+    'body': """
+      import React from 'react';
+      import {
+        View,
+        Text
+        } from 'react-native';
 
-    export default $3;
-    """
+        const $1 = () => {
+            return(
+              <View>
+                <Text>$2</Text>
+              </View>
+            );
+          };
 
-'NativeConstructor':
-  'prefix': 'ncon'
-  'body': """
-      constructor(props){
-        super(props);
+      export default $3;
+      """
+  'NativeConstructor':
+    'prefix': 'ncon'
+    'body': """
+        constructor(props){
+          super(props);
 
-        this.state = {$1};
-      }
-    """
-
-'NativeStylesheet':
-  'prefix': 'nsty'
-  'body': """
-    const styles = StyleSheet.create({
-      container: {
-        $1: $2,
-      },
-    });
-    """
+          this.state = {$1};
+        }
+      """
+  'NativeStylesheet':
+    'prefix': 'nsty'
+    'body': """
+      const styles = StyleSheet.create({
+        container: {
+          $1: $2,
+        },
+      });
+      """
