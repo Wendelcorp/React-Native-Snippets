@@ -1,12 +1,14 @@
 # React-Native Snippets
 
+Made for Atom
+
 To use: 
 1. Copy and paste the code from the snippets.cson file
 2. Open Atom, click Atom in the toolbar, then click Snippets... from the dropdown
 3. Paste code in the file that opened and save the file
 
 ## Class Component scaffold
-### nccom + enter
+### nccom + enter will return:
 ```javascript
 import React from 'react';
 import {
@@ -25,7 +27,7 @@ import {
     }
 ```
 ## Functional Component scaffold
-### nfcom + enter
+### nfcom + enter will return:
 ```javascript
 import React from 'react';
 import {
