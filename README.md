@@ -6,7 +6,7 @@ To use:
 3. Paste code in the file that opened and save the file
 
 ## Class Component scaffold
-### nccom + enter
+### nccom + enter will return:
 ```javascript
 import React from 'react';
 import {
@@ -25,7 +25,7 @@ import {
     }
 ```
 ## Functional Component scaffold
-### nfcom + enter
+### nfcom + enter will return:
 ```javascript
 import React from 'react';
 import {
