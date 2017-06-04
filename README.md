@@ -13,7 +13,7 @@ To use:
 import React from 'react';
 import {
   View,
-  Text.
+  Text
   } from 'react-native';
 
     export default class $1 extends Component {
@@ -32,7 +32,7 @@ import {
 import React from 'react';
 import {
   View,
-  Text.
+  Text
   } from 'react-native';
 
   const $1 = () => {
