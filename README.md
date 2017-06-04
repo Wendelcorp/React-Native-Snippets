@@ -46,7 +46,7 @@ import {
 export default $3;
 ```
 ## Constructor
-### nfcom + enter will return:
+### ncon + enter will return:
 ```javascript
 constructor(props){
   super(props);
@@ -55,7 +55,7 @@ constructor(props){
 }
 ```
 ## StyleSheet
-### nfcom + enter will return:
+### nsty + enter will return:
 ```javascript
 const styles = StyleSheet.create({
   container: {
